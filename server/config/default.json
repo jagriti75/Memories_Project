@@ -1,0 +1,6 @@
+
+{
+    "mongoURI":
+    "mongodb+srv://memo:5rVpXQxsJu5sSGnz@cluster0.jhjht.mongodb.net/memo?retryWrites=true&w=majority"
+  }
+  
