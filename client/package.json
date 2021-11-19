@@ -25,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +50,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jagriti75/Memories_Project.git"
-  }
+  },
+  "homepage": "http://jagriti75.github.io/Memories_Project"
 }
